@@ -17,21 +17,16 @@ public class GuessANumber {
         while (computerMove != playerMove) {
 
             if (computerMove > playerMove) {
-                System.out.println("Too low");
+                System.out.print("Too low! Please try again: ");
             } else {
-                System.out.println("Too high");
+                System.out.print("Too high! Please try again: ");
             }
 
             playerMove = Integer.parseInt(scanner.nextLine());
 
         }
 
-            System.out.println("You guessed it");
-
-
-
-
-
+            System.out.println("You guessed it!");
 
     }
 }
