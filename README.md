@@ -30,19 +30,27 @@ Then you will choose another number.
 
 If you input something different from number from 1 to 100, you will get a reply for wrong input.
 
+![png_02.png](JPEG/png_02.png)
+
+When you guess the number you will get reply on the console. Then you will have option to play again.
+
+![png_03.png](JPEG/png_03.png)
+
+If you input something different from "Y" or "N" you will get reply for wrong input.
+
+![png_04.png](JPEG/png_04.png)
 ---
 
-## Algorithm
+## :point_right: Algorithm
 
-1. User choice will be taken and stored.
-2. The computer will choose a random number from 1 to 9.
-    * If computer choose a number from 1 to 33, it will equal to Rock.
-    * If computer choose a number from 34 to 66, it will equal to Paper.
-    * If computer choose a number from 67 to 99, it will equal to Scissors.
+
+1. The computer will choose a random number from 1 to 100.
+2. User choice will be taken and stored.
 3. The user input will be compared with computer choice.
-4. According to rules one of the players will win.
-5. The winner will be written on the console.
-6. Player choice for new game will be taken.
+   * If player number is less than computer number on the console will appear reply "Too low".
+   * If player number is greater than computer number on the console will appear reply "Too high".
+   * If player number is equal to computer number on the console will appear reply "You guessed it!".
+4. Player choice for new game will be taken.
 
 ---
 
