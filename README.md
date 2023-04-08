@@ -56,4 +56,4 @@ If you input something different from "Y" or "N" you will get reply for wrong in
 
 ## :point_right: Live Demo
 
-[Link to live demo]()
+[Link to live demo](https://replit.com/@Stavr1/GuessANumber?v=1)
